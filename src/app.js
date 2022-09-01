@@ -78,6 +78,10 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchCurrentLocation);
 }
 
+function displayCelsiusTemperature(event) {
+  event.preventDefault();
+}
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", citySubmit);
 
@@ -85,3 +89,6 @@ let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("Nashville");
+
+let celsiusLink = document.querySelector("celsius-link");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
