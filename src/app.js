@@ -34,7 +34,6 @@ if (minutes < 10) {
 h4.innerHTML = `${day}, ${month} ${date} | ${hours}:${minutes} `;
 
 function cityTemperature(response) {
-  console.log(response.data);
   let temperatureElement = document.querySelector("#degrees");
   let cityElement = document.querySelector("#current-city");
   let descriptionElement = document.querySelector("#description");
