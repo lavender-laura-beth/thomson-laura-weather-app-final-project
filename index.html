@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Laura Thomson Weather App</title>
+
+<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap"
+      rel="stylesheet"
+    />
+
+ <script
+      src="https://kit.fontawesome.com/91a4166a6f.js"
+      crossorigin="anonymous"
+    ></script>
+
+<link rel="stylesheet" href="src/styles.css" />
+
+</head>
+<body>
+
+ <div class="container">
+      <div class="weather-app-search">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="search"
+                  placeholder="Type a city..."
+                  class="form-control"
+                  autocomplete="off"
+                  id="city-search"
+                />
+              </div>
+
+<div class="col-3">
+ <input
+ type="submit"
+value="Search"
+class="btn btn-outline-secondary w-100"/>
+</div>
+
+<div class="col-3">
+  <button
+    class="btn btn-success w-100"
+    id="current-location-button">
+    Current
+  </button>
+</div>
+    
+<div class="container my-5">
+	<div class="row">
+		<div class="col">
+      <h1 id="current-city">NASHVILLE</h1>
+      <div class="d-inline-flex p-2"><h1><span id="degrees">82</span>°F</h1><img src="" alt="clear" id="icon" /></div>
+      <h4 id="date-and-time">thurs, sep 1 | 11:30 A.M.</h4>
+    </div>
+
+<div class="col">
+    </br>
+    <p class="border p-4 rounded box"> 
+      <span id="description">sunny</span>
+    </br>
+      humidity: <span id="humidity">47</span>%
+      </br>
+      wind: <span id="wind">8 </span> mph
+      </p> 
+    </div>
+	</div>
+</div>
+
+</br>
+     <div class="row mt-2">
+        <div class="col-2 text-center"><i class="fa-solid fa-sun sun"></i></div>
+        <div class="col-2 text-center"><i class="fa-solid fa-cloud cloud"></i></div>
+        <div class="col-2 text-center"><i class="fa-solid fa-cloud-rain rain"></i></div>
+        <div class="col-2 text-center"><i class="fa-solid fa-sun sun"></i></div>
+        <div class="col-2 text-center"><i class="fa-solid fa-cloud cloud"></i></div>
+        <div class="col-2 text-center"><i class="fa-solid fa-sun sun"></i></div>
+        </div>
+
+
+<div class="row mt-2">
+<div class="col-2 text-center day">sunday <div>69˚ | 80˚</div></div>
+<div class="col-2 text-center day">monday <div>68˚ | 82˚</div></div>
+<div class="col-2 text-center day">tuesday <div>69˚ | 83˚</div></div>
+<div class="col-2 text-center day">wednesday 67˚ | 85˚</div>
+<div class="col-2 text-center day">thursday 66˚ | 84˚</div>
+<div class="col-2 text-center day">friday <div>66˚ | 84˚</div></div>
+</div>
+</div>
+
+<script src="src/index.js">
+
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background-color: #ffff;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+h4 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: lighter;
+}
+
+p {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.weather-app-search {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.sun {
+  color: #ffebaf;
+  font-size: 25px;
+}
+
+.cloud {
+  color: #6c767d;
+  font-size: 25px;
+}
+
+.rain {
+  color: #c2cfd8;
+  font-size: 25px;
+}
+
+.day {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+img {
+  margin-right: 5px;
+  height: 60px;
+  width: 60px;
+}
