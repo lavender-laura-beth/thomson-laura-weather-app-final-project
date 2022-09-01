@@ -18,6 +18,12 @@ p {
   font-weight: bolder;
 }
 
+img {
+  margin-right: 5px;
+  height: 60px;
+  width: 60px;
+}
+
 .weather-app-search {
   max-width: 600px;
   margin: 30px auto;
@@ -42,8 +48,11 @@ p {
   font-family: "Ibarra Real Nova", serif;
 }
 
-img {
-  margin-right: 5px;
-  height: 60px;
-  width: 60px;
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
 }
