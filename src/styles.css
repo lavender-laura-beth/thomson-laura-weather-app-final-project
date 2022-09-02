@@ -68,3 +68,12 @@ ul {
   text-decoration: underline;
   font-family: "Ibarra Real Nova", serif;
 }
+
+.temperature-city-date div {
+  width: 50%;
+  display: inline-block;
+}
+
+#fs-1 {
+  float: left;
+}
