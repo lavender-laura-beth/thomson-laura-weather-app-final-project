@@ -68,8 +68,3 @@ ul {
   text-decoration: underline;
   font-family: "Ibarra Real Nova", serif;
 }
-
-.container div {
-  display: inline-block;
-  width: 50%;
-}
