@@ -56,3 +56,23 @@ img {
 .active:hover {
   text-decoration: none;
 }
+
+.current-city {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 20px;
+}
+
+.degrees {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 20px;
+}
+
+.fahrenheit-link {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 15px;
+}
+
+.celsius-link {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 15px;
+}
