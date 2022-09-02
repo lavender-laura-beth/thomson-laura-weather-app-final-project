@@ -24,6 +24,10 @@ img {
   width: 60px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .weather-app-search {
   max-width: 600px;
   margin: 30px auto;
