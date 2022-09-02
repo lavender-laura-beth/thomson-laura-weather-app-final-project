@@ -48,21 +48,19 @@ img {
   font-family: "Ibarra Real Nova", serif;
 }
 
-.active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-}
-
-.active:hover {
+.units {
+  position: relative;
+  top: -12px;
   text-decoration: none;
+  font-family: "Ibarra Real Nova", serif;
 }
 
-.fahrenheit-link {
+.units .link-dark {
+  text-decoration: none;
   font-family: "Ibarra Real Nova", serif;
-  font-size: 15px;
 }
 
-.celsius-link {
+.units .link-dark:hover {
+  text-decoration: underline;
   font-family: "Ibarra Real Nova", serif;
-  font-size: 15px;
 }
