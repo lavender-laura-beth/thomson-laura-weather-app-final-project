@@ -33,6 +33,41 @@ if (minutes < 10) {
 
 h4.innerHTML = `${day}, ${month} ${date} | ${hours}:${minutes} `;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let weekDays = ["thursday", "friday", "saturday", "sunday", "monday"];
+
+  let forecastHTML = `<div class="row">`;
+  weekDays.forEach(function (weekDays) {
+    forecastHTML =
+      forecastHTML +
+      `
+  <div class="col-2 text-center">
+          <div class="weather-forecast-date">
+          ${weekDays}</div>
+          <img
+          src="http://openweathermap.org/img/wn/50d@2x.png"
+          alt=""
+          width="42"
+          />
+          <div class="weather-forecast-temperature">
+          <span class= "weather-forecast-temperature-min">
+            69˚
+          </span> 
+          | 
+          <span class= "weather-forecast-temperature-max">
+            80˚
+          </span>
+          </div>
+        </div>
+        `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function cityTemperature(response) {
   let temperatureElement = document.querySelector("#degrees");
   let cityElement = document.querySelector("#current-city");
@@ -99,6 +134,8 @@ function displayFahrenheitTemperature(event) {
 }
 
 let fahrenheitTemperature = null;
+
+displayForecast();
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", citySubmit);
