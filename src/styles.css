@@ -33,21 +33,6 @@ ul {
   margin: 30px auto;
 }
 
-.sun {
-  color: #ffebaf;
-  font-size: 25px;
-}
-
-.cloud {
-  color: #6c767d;
-  font-size: 25px;
-}
-
-.rain {
-  color: #c2cfd8;
-  font-size: 25px;
-}
-
 .day {
   font-family: "Ibarra Real Nova", serif;
 }
@@ -67,4 +52,23 @@ ul {
 .units .link-dark:hover {
   text-decoration: underline;
   font-family: "Ibarra Real Nova", serif;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forcast-temperature {
+  font-size: 13px;
 }
